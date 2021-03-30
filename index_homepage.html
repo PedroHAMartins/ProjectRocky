@@ -15,47 +15,49 @@
                 <a id="shop_info">CLIQUE NO PRODUTO PARA ADICIONAR AO CARRINHO</a>
             <th>
                 <tr id="product1"  class="product_field">
-                    <img class="product_field_over" src="images/male_shirt1.png" alt="Box 1" id="product1_image" onmouseleave="changeImageLeave1(id)" onmouseover="changeImage1(id)">
+                    <img class="product_field_over" src="images/male_shirt1.png" alt="Box 1" id="product1_image" onclick="addToCart(id)" onmouseleave="changeImageLeave1(id)" onmouseover="changeImage1(id)">
                 </tr>
                 <tr id="product2"  class="product_field">
-                    <img class="product_field_over" src="images/female_shirt2.png" alt="Box 2" id="product2_image" onmouseleave="changeImageLeave2(id)" onmouseover="changeImage2(id)">
+                    <img class="product_field_over" src="images/female_shirt2.png" alt="Box 2" id="product2_image" onclick="addToCart(id)" onmouseleave="changeImageLeave2(id)" onmouseover="changeImage2(id)">
                 </tr>
                 <tr id="product3"  class="product_field">
-                    <img class="product_field_over" src="images/female_shirt1.png" alt="Box 3" id="product3_image" onmouseleave="changeImageLeave3(id)" onmouseover="changeImage3(id)">
+                    <img class="product_field_over" src="images/female_shirt1.png" alt="Box 3" id="product3_image" onclick="addToCart(id)" onmouseleave="changeImageLeave3(id)" onmouseover="changeImage3(id)">
                 </tr>
                 <tr id="product4"  class="product_field">
-                    <img class="product_field_over" src="images/male_shirt3.png" alt="Box 4" id="product4_image" onmouseleave="changeImageLeave4(id)" onmouseover="changeImage4(id)">
+                    <img class="product_field_over" src="images/male_shirt3.png" alt="Box 4" id="product4_image" onclick="addToCart(id)" onmouseleave="changeImageLeave4(id)" onmouseover="changeImage4(id)">
                 </tr>
             </th>
             <th>
                 <tr id="product5"  class="product_field">
-                    <img class="product_field_over" src="images/female_shirt3.png" alt="Box 5" id="product5_image" onmouseleave="changeImageLeave5(id)" onmouseover="changeImage5(id)">
+                    <img class="product_field_over" src="images/female_shirt3.png" alt="Box 5" id="product5_image" onclick="addToCart(id)" onmouseleave="changeImageLeave5(id)" onmouseover="changeImage5(id)">
                 </tr>
                 <tr id="product6"  class="product_field">
-                    <img class="product_field_over" src="images/male_shirt2.png" alt="Box 6" id="product6_image" onmouseleave="changeImageLeave6(id)" onmouseover="changeImage6(id)">
+                    <img class="product_field_over" src="images/male_shirt2.png" alt="Box 6" id="product6_image" onclick="addToCart(id)" onmouseleave="changeImageLeave6(id)" onmouseover="changeImage6(id)">
                 </tr>
                 <tr id="product7"  class="product_field">
-                    <img class="product_field_over" src="images/anilha1.png" alt="Box 7" id="product7_image" onmouseleave="changeImageLeave7(id)" onmouseover="changeImage7(id)">
+                    <img class="product_field_over" src="images/anilha1.png" alt="Box 7" id="product7_image" onclick="addToCart(id)" onmouseleave="changeImageLeave7(id)" onmouseover="changeImage7(id)">
                 </tr>
                 <tr id="product8"  class="product_field">
-                    <img class="product_field_over" src="images/esteira1.png" alt="Box 8" id="product8_image" onmouseleave="changeImageLeave8(id)" onmouseover="changeImage8(id)">
+                    <img class="product_field_over" src="images/esteira1.png" alt="Box 8" id="product8_image" onclick="addToCart(id)" onmouseleave="changeImageLeave8(id)" onmouseover="changeImage8(id)">
                 </tr>
             </th>
             <th>
                 <tr id="product9"  class="product_field">
-                    <img class="product_field_over" src="images/sapatilha1.png" alt="Box 9" id="product9_image" onmouseleave="changeImageLeave9(id)" onmouseover="changeImage9(id)">
+                    <img class="product_field_over" src="images/sapatilha1.png" alt="Box 9" id="product9_image" onclick="addToCart(id)" onmouseleave="changeImageLeave9(id)" onmouseover="changeImage9(id)">
                 </tr>
                 <tr id="product10"  class="product_field">
-                    <img class="product_field_over" src="images/bermuda_inf1.png" alt="Box 10" id="product10_image" onmouseleave="changeImageLeave10(id)" onmouseover="changeImage10(id)">
+                    <img class="product_field_over" src="images/bermuda_inf1.png" alt="Box 10" id="product10_image" onclick="addToCart(id)" onmouseleave="changeImageLeave10(id)" onmouseover="changeImage10(id)">
                 </tr>
                 <tr id="product11"  class="product_field">
-                    <img class="product_field_over" src="images/chuteira_inf1.png" alt="Box 11" id="product11_image" onmouseleave="changeImageLeave11(id)" onmouseover="changeImage11(id)">
+                    <img class="product_field_over" src="images/chuteira_inf1.png" alt="Box 11" id="product11_image" onclick="addToCart(id)" onmouseleave="changeImageLeave11(id)" onmouseover="changeImage11(id)">
                 </tr>
                 <tr id="product12"  class="product_field">
-                    <img class="product_field_over" src="images/bola_basquete1.png" alt="Box 12" id="product12_image" onmouseleave="changeImageLeave12(id)" onmouseover="changeImage12(id)">
+                    <img class="product_field_over" src="images/bola_basquete1.png" alt="Box 12" id="product12_image" onclick="addToCart(id)" onmouseleave="changeImageLeave12(id)" onmouseover="changeImage12(id)">
                 </tr>
             </th>
         </table>
+        <input id="value" type="number" style="display: none;" value="0">
+        <input id="items" type="number" style="display: none;" value="0">
     </section>
 </body>
 </html>

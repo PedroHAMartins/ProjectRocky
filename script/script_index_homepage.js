@@ -1,16 +1,105 @@
-var image1 = document.getElementById("product1_image");
-var image2 = document.getElementById("product2_image");
-var image3 = document.getElementById("product3_image");
-var image4 = document.getElementById("product4_image");
-var image5 = document.getElementById("product5_image");
-var image6 = document.getElementById("product6_image");
-var image7 = document.getElementById("product7_image");
-var image8 = document.getElementById("product8_image");
-var image9 = document.getElementById("product9_image");
-var image10 = document.getElementById("product10_image");
-var image11 = document.getElementById("product11_image");
-var image12 = document.getElementById("product12_image");
+window.onload = function addToCart(){}
 
+function addToCart(id){
+    if(document.getElementById(id).getAttribute("src") == "images/male_shirt1_info.png"){
+        document.getElementById("value").value = parseInt(document.getElementById("value").value) + 30;
+        document.getElementById("items").value = parseInt(document.getElementById("items").value) + 1;
+        localStorage.setItem("cart_value", document.getElementById("value").value);
+        var total_value = localStorage.getItem("cart_value");
+        localStorage.setItem("items_count", document.getElementById("items").value);
+        var total_items = localStorage.getItem("items_count")
+    }
+    if(document.getElementById(id).getAttribute("src") == "images/male_shirt2_info.png"){
+        document.getElementById("value").value = parseInt(document.getElementById("value").value) + 30;
+        document.getElementById("items").value = parseInt(document.getElementById("items").value) + 1;
+        localStorage.setItem("cart_value", document.getElementById("value").value);
+        var total_value = localStorage.getItem("cart_value");
+        localStorage.setItem("items_count", document.getElementById("items").value);
+        var total_items = localStorage.getItem("items_count")
+    }
+    if(document.getElementById(id).getAttribute("src") == "images/male_shirt3_info.png"){
+        document.getElementById("value").value = parseInt(document.getElementById("value").value) + 30;
+        document.getElementById("items").value = parseInt(document.getElementById("items").value) + 1;
+        localStorage.setItem("cart_value", document.getElementById("value").value);
+        var total_value = localStorage.getItem("cart_value");
+        localStorage.setItem("items_count", document.getElementById("items").value);
+        var total_items = localStorage.getItem("items_count")
+    }
+    if(document.getElementById(id).getAttribute("src") == "images/female_shirt1_info.png"){
+        document.getElementById("value").value = parseInt(document.getElementById("value").value) + 30;
+        document.getElementById("items").value = parseInt(document.getElementById("items").value) + 1;
+        localStorage.setItem("cart_value", document.getElementById("value").value);
+        var total_value = localStorage.getItem("cart_value");
+        localStorage.setItem("items_count", document.getElementById("items").value);
+        var total_items = localStorage.getItem("items_count")
+    }
+    if(document.getElementById(id).getAttribute("src") == "images/female_shirt2_info.png"){
+        document.getElementById("value").value = parseInt(document.getElementById("value").value) + 30;
+        document.getElementById("items").value = parseInt(document.getElementById("items").value) + 1;
+        localStorage.setItem("cart_value", document.getElementById("value").value);
+        var total_value = localStorage.getItem("cart_value");
+        localStorage.setItem("items_count", document.getElementById("items").value);
+        var total_items = localStorage.getItem("items_count")
+    }
+    if(document.getElementById(id).getAttribute("src") == "images/female_shirt3_info.png"){
+        document.getElementById("value").value = parseInt(document.getElementById("value").value) + 30;
+        document.getElementById("items").value = parseInt(document.getElementById("items").value) + 1;
+        localStorage.setItem("cart_value", document.getElementById("value").value);
+        var total_value = localStorage.getItem("cart_value");
+        localStorage.setItem("items_count", document.getElementById("items").value);
+        var total_items = localStorage.getItem("items_count")
+    }
+    if(document.getElementById(id).getAttribute("src") == "images/anilha1_info.png"){
+        document.getElementById("value").value = parseInt(document.getElementById("value").value) + 20;
+        document.getElementById("items").value = parseInt(document.getElementById("items").value) + 1;
+        localStorage.setItem("cart_value", document.getElementById("value").value);
+        var total_value = localStorage.getItem("cart_value");
+        localStorage.setItem("items_count", document.getElementById("items").value);
+        var total_items = localStorage.getItem("items_count")
+    }
+    if(document.getElementById(id).getAttribute("src") == "images/esteira1_info.png"){
+        document.getElementById("value").value = parseInt(document.getElementById("value").value) + 750;
+        document.getElementById("items").value = parseInt(document.getElementById("items").value) + 1;
+        localStorage.setItem("cart_value", document.getElementById("value").value);
+        var total_value = localStorage.getItem("cart_value");
+        localStorage.setItem("items_count", document.getElementById("items").value);
+        var total_items = localStorage.getItem("items_count")
+    }
+    if(document.getElementById(id).getAttribute("src") == "images/sapatilha1_info.png"){
+        document.getElementById("value").value = parseInt(document.getElementById("value").value) + 250;
+        document.getElementById("items").value = parseInt(document.getElementById("items").value) + 1;
+        localStorage.setItem("cart_value", document.getElementById("value").value);
+        var total_value = localStorage.getItem("cart_value");
+        localStorage.setItem("items_count", document.getElementById("items").value);
+        var total_items = localStorage.getItem("items_count")
+    }
+    if(document.getElementById(id).getAttribute("src") == "images/bermuda_inf1_info.png"){
+        document.getElementById("value").value = parseInt(document.getElementById("value").value) + 250;
+        document.getElementById("items").value = parseInt(document.getElementById("items").value) + 1;
+        localStorage.setItem("cart_value", document.getElementById("value").value);
+        var total_value = localStorage.getItem("cart_value");
+        localStorage.setItem("items_count", document.getElementById("items").value);
+        var total_items = localStorage.getItem("items_count")
+    }
+    if(document.getElementById(id).getAttribute("src") == "images/chuteira_inf1_info.png"){
+        document.getElementById("value").value = parseInt(document.getElementById("value").value) + 150;
+        document.getElementById("items").value = parseInt(document.getElementById("items").value) + 1;
+        localStorage.setItem("cart_value", document.getElementById("value").value);
+        var total_value = localStorage.getItem("cart_value");
+        localStorage.setItem("items_count", document.getElementById("items").value);
+        var total_items = localStorage.getItem("items_count")
+    }
+    if(document.getElementById(id).getAttribute("src") == "images/bola_basquete1_info.png"){
+        document.getElementById("value").value = parseInt(document.getElementById("value").value) + 90;
+        document.getElementById("items").value = parseInt(document.getElementById("items").value) + 1;
+        localStorage.setItem("cart_value", document.getElementById("value").value);
+        var total_value = localStorage.getItem("cart_value");
+        localStorage.setItem("items_count", document.getElementById("items").value);
+        var total_items = localStorage.getItem("items_count")
+    }
+    console.log(total_items);
+    console.log(total_value);
+}
 
 
 function changeImage1(id){
