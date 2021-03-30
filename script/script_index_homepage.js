@@ -21,7 +21,7 @@ function addToCart(id){
         }
         
     }
-    if(document.getElementById(id).getAttribute("id") == "anilha1"){
+    if( getId == "anilha1"){
         var savedCart = localStorage.getItem("cart_value")
         var savedItems = localStorage.getItem("items_count");
         if(savedCart == null ){
@@ -37,7 +37,7 @@ function addToCart(id){
         }
         
     }
-    if(document.getElementById(id).getAttribute("id") == "esteira1"){
+    if( getId == "esteira1"){
         var savedCart = localStorage.getItem("cart_value")
         var savedItems = localStorage.getItem("items_count");
         if(savedCart == null ){
@@ -53,7 +53,7 @@ function addToCart(id){
         }
         
     }
-    if(document.getElementById(id).getAttribute("id") == "sapatilha1"){
+    if( getId == "sapatilha1"){
         var savedCart = localStorage.getItem("cart_value")
         var savedItems = localStorage.getItem("items_count");
         if(savedCart == null ){
@@ -69,7 +69,7 @@ function addToCart(id){
         }
         
     }
-    if(document.getElementById(id).getAttribute("id") == "bermuda_inf1"){
+    if( getId == "bermuda_inf1"){
         var savedCart = localStorage.getItem("cart_value")
         var savedItems = localStorage.getItem("items_count");
         if(savedCart == null ){
@@ -85,7 +85,7 @@ function addToCart(id){
         }
         
     }
-    if(document.getElementById(id).getAttribute("id") == "chuteira_inf1"){
+    if( getId == "chuteira_inf1"){
         var savedCart = localStorage.getItem("cart_value")
         var savedItems = localStorage.getItem("items_count");
         if(savedCart == null ){
@@ -101,7 +101,7 @@ function addToCart(id){
         }
         
     }
-    if(document.getElementById(id).getAttribute("id") == "bola_basquete1"){
+    if( getId == "bola_basquete1"){
         var savedCart = localStorage.getItem("cart_value")
         var savedItems = localStorage.getItem("items_count");
         if(savedCart == null ){
