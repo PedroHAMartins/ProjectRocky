@@ -9,9 +9,10 @@
     <link rel="stylesheet" type="text/css" href="style/style_index.css"/>
     <script src="script/script_index.js"></script>
 </head>
-<body onstorage="updateCart()">
+<body onstorage="updateCart()" onload="getStoredCart()">
     <header>
         <div id="title_header">
+            <div class="background"></div>
             <table>
                 <tr>
                     <th>
@@ -24,30 +25,30 @@
                             <ul id="header_nav">
                                 <li><a class="header_options" href="#">ROUPAS</a>
                                     <ul>
-                                        <li><a id="option_1" href="#">MASCULINO</a></li>
-                                        <li><a id="option_2" href="#">FEMININO</a></li>
+                                        <li><a id="option_1" href="pages/male_section.html" target="iframe">MASCULINO</a></li>
+                                        <li><a id="option_2" href="#" target="iframe">FEMININO</a></li>
                                     </ul>
                                 </li>
-                                <li><a class="header_options" href="#">EQUIPAMENTOS</a>
+                                <li><a class="header_options" href="#" target="iframe">EQUIPAMENTOS</a>
                                     <ul>
-                                        <li><a id="option_3" href="#">BOLAS</a></li>
-                                        <li><a id="option_4" href="#">ACESSÓRIOS</a></li>
-                                        <li><a id="option_5" href="#">APARELHOS</a></li>
+                                        <li><a id="option_3" href="#" target="iframe">BOLAS</a></li>
+                                        <li><a id="option_4" href="#" target="iframe">ACESSÓRIOS</a></li>
+                                        <li><a id="option_5" href="#" target="iframe">APARELHOS</a></li>
                                     </ul>
                                 </li>
-                                <li><a class="header_options" href="#">INFANTIL</a>
+                                <li><a class="header_options" href="#" target="iframe">INFANTIL</a>
                                     <ul>
-                                        <li><a id="option_6" href="#">MASCULINO</a></li>
-                                        <li><a id="option_7" href="#">FEMININO</a></li>
-                                        <li><a id="option_8" href="#">ACESSÓRIOS</a></li>
+                                        <li><a id="option_6" href="#" target="iframe">MASCULINO</a></li>
+                                        <li><a id="option_7" href="#" target="iframe">FEMININO</a></li>
+                                        <li><a id="option_8" href="#" target="iframe">ACESSÓRIOS</a></li>
                                     </ul>
                                 </li>
-                                <li><a class="header_options" href="#">MARCAS</a>
+                                <li><a class="header_options" href="#" target="iframe">MARCAS</a>
                                     <ul>
-                                        <li><a id="option_9" href="#">MARCA 1</a></li>
-                                        <li><a id="option_10" href="#">MARCA 2</a></li>
-                                        <li><a id="option_11" href="#">MARCA 3</a></li>
-                                        <li><a id="option_12" href="#">MARCA 4</a></li>
+                                        <li><a id="option_9" href="#" target="iframe">MARCA 1</a></li>
+                                        <li><a id="option_10" href="#" target="iframe">MARCA 2</a></li>
+                                        <li><a id="option_11" href="#" target="iframe">MARCA 3</a></li>
+                                        <li><a id="option_12" href="#" target="iframe">MARCA 4</a></li>
                                     </ul>
                                 </li>
                             </ul>
@@ -56,7 +57,7 @@
                     <th>
                         <tr>
                             <div id="shop_cart">
-                                <a>MEU CARRINHO</a>
+                                <a id="cart_address" href="#">MEU CARRINHO</a>
                                 <div id="shop_cart_products_div">
                                     <a>PRODUTOS:</a>
                                     <a id="shop_cart_products">0</a>
@@ -64,6 +65,9 @@
                                 <div id="shop_cart_value_div">
                                     <a>R$ </a>
                                     <a id="shop_cart_value">0</a>
+                                </div>
+                                <div id="clear_cart_div">
+                                    <a id="clear_cart" onclick="clearCart()">LIMPAR CARRINHO</a>
                                 </div>
                             </div>
                         </tr>
@@ -74,7 +78,7 @@
         <h1 id="slogan">"A CASA DOS ESPORTES ..."</h1>
     </header>
     <section>
-        <iframe src="index_homepage.html" title="Sports Store - Página inicial" scrolling="no"></iframe>
+        <iframe src="index_homepage.html" title="Sports Store - Página inicial" id="iframe" name="iframe"></iframe>
     </section>
     <footer>
         <div id="footer_info">

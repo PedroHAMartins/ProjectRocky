@@ -6,7 +6,10 @@
 }
 
 body{
-    background-color: #b4b4b4;
+    background: url("../images/background9.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
 }
 
 #header_logo{
@@ -21,6 +24,26 @@ body{
     margin: 15px 10px 10px 10px;
     padding: 1px 10px 10px 10px;
     border-radius: 10px 40px 10px 40px;
+    box-shadow: 0px 1px 2px 1px rgb(4, 84, 131);
+    position: relative;
+    z-index: 5;
+}
+
+#title_header .background{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url("../images/background-header.jpg") center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px 40px 10px 40px;
+    opacity: .4;
+    width: 100%;
+    height: 100%;
+
 }
 
 .header_options{
@@ -44,6 +67,7 @@ body{
     border-left: 0px;
     border-top: 0px;
     border-bottom: 0px;
+    text-shadow: 0px 2px 2px #00002c;
 }
 
   
@@ -53,7 +77,7 @@ body{
     left: 0;
     width: 0%;
     height: 100%;
-    background: #0a35f6;
+    background: #0824a1;
     z-index: -1;
     transition: 0.5s;
     border-radius: 5px;
@@ -129,31 +153,53 @@ body{
     font-family: bebas;
     font-size: 17px;
     float: right;
-    margin:30px 40px 15px 15px;
+    margin:10px 40px 15px 15px;
     padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#clear_cart{
+    color: white;
+    background-color: #091294;
+    padding: 2px 5px 1px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#cart_address{
+    text-decoration: none;
+}
+
+#cart_address:visited{
+    color: #0300b8;
 }
 
 #slogan{
     background-color: #0a35f6;
-    padding: 10px 10px 5px 10px;
+    padding: 5px 10px 10px 10px;
     margin-left: 50px;
-    margin-top: -20px;
+    margin-top: -9px;
+    margin-bottom: 15px;
+    height: 14px;
     position: absolute;
     border-radius: 0px 0px 10px 10px;
     font-family: bebas;
     font-size: 20px;
     font-weight: 500;
     color: white;
-    z-index: -1;
+    z-index: 20;
+    box-shadow: 0px 1px 2px 1px rgb(20, 4, 170);
+
 }
 
 section{
-    background-color: blue;
+    background-color: rgb(6, 63, 168);
     height: 1000px;
     width: 100%;
     margin: auto;
     margin-top: 50px;
     border-radius: 5px;
+    box-shadow: 0px 1px 2px 1px rgb(11, 57, 155);
 
 }
 
@@ -167,9 +213,10 @@ iframe{
 footer{
     height: 100px;
     width: auto;
-    background-color: #0300b8;
+    background-color: rgb(6, 63, 168);
     margin: 10px 5px 10px 5px;
     border-radius: 10px;
+    box-shadow: 0px 1px 2px 1px rgb(11, 57, 155);
 }
 
 footer table{
@@ -185,6 +232,9 @@ footer a{
     letter-spacing: 1px;
     margin-right: 25px;
     margin-left: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: left;
 }
 
 footer a:visited {
@@ -197,5 +247,7 @@ footer a:visited {
     font-size: 15px;
     font-weight: 500;
     margin-top: 75px;
-    margin-left: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }

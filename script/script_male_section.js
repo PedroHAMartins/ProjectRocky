@@ -120,19 +120,19 @@ function addToCart(id){
 }
 
 function changeImage(id){
-    if(document.getElementById(id).getAttribute("src") == "images/"+id+".png"){
-        document.getElementById(id).setAttribute("src", "images/"+id+"_info.png");
+    if(document.getElementById(id).getAttribute("src") == "../images/"+id+".png"){
+        document.getElementById(id).setAttribute("src", "../images/"+id+"_info.png");
     }
     else{
-        document.getElementById(id).setAttribute("src", "images/"+id+".png");
+        document.getElementById(id).setAttribute("src", "../images/"+id+".png");
     }
 }
 
 function changeImageLeave(id){
-    if(document.getElementById(id).getAttribute("src") == "images/"+id+".png"){
-        document.getElementById(id).setAttribute("src", "images/"+id+"_info.png");
+    if(document.getElementById(id).getAttribute("src") == "../images/"+id+".png"){
+        document.getElementById(id).setAttribute("src", "../images/"+id+"_info.png");
     }
     else{
-        document.getElementById(id).setAttribute("src", "images/"+id+".png");
+        document.getElementById(id).setAttribute("src", "../images/"+id+".png");
     }
 }
