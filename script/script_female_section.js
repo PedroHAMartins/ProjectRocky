@@ -4,7 +4,8 @@ window.onload = function addToCart(){}
 
 function addToCart(id){
     var getId = document.getElementById(id).getAttribute("id");
-    if(getId == "male_shirt1" || getId == "male_shirt2" || getId == "male_shirt3" || getId == "regata_masc1"){
+    if(getId == "female_shirt1" || getId == "female_shirt2" || getId == "female_shirt3" ||
+        getId == "top1" || getId == "top2"){
         var savedCart = localStorage.getItem("cart_value")
         var savedItems = localStorage.getItem("items_count");
         if(savedCart == null ){
@@ -20,7 +21,7 @@ function addToCart(id){
         }
         
     }
-    if( getId == "berm_masc1" || getId == "berm_masc2"){
+    if( getId == "berm_fem1" || getId == "berm_fem2"){
         var savedCart = localStorage.getItem("cart_value")
         var savedItems = localStorage.getItem("items_count");
         if(savedCart == null ){
@@ -36,7 +37,7 @@ function addToCart(id){
         }
         
     }
-    if( getId == "sunga1" || getId == "sunga2"){
+    if( getId == "biquini1" || getId == "biquini2"){
         var savedCart = localStorage.getItem("cart_value")
         var savedItems = localStorage.getItem("items_count");
         if(savedCart == null ){
@@ -47,7 +48,7 @@ function addToCart(id){
             localStorage.setItem("items_count", 0);
         }
         else{
-            localStorage.setItem("cart_value", (parseInt(savedCart) + 20));
+            localStorage.setItem("cart_value", (parseInt(savedCart) + 40));
             localStorage.setItem("items_count", (parseInt(savedItems) + 1));
         }
         
