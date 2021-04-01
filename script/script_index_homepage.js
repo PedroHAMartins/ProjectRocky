@@ -9,11 +9,11 @@ function addToCart(id){
         var savedCart = localStorage.getItem("cart_value")
         var savedItems = localStorage.getItem("items_count");
         if(savedCart == null ){
-            localStorage.setItem("cart_value", 0);
+            localStorage.setItem("cart_value", 30);
         }
         if(savedItems == null ){
             savedItems = 0;
-            localStorage.setItem("items_count", 0);
+            localStorage.setItem("items_count", 1);
         }
         else{
             localStorage.setItem("cart_value", (parseInt(savedCart) + 30));
@@ -25,11 +25,11 @@ function addToCart(id){
         var savedCart = localStorage.getItem("cart_value")
         var savedItems = localStorage.getItem("items_count");
         if(savedCart == null ){
-            localStorage.setItem("cart_value", 0);
+            localStorage.setItem("cart_value", 20);
         }
         if(savedItems == null ){
             savedItems = 0;
-            localStorage.setItem("items_count", 0);
+            localStorage.setItem("items_count", 1);
         }
         else{
             localStorage.setItem("cart_value", (parseInt(savedCart) + 20));
@@ -41,11 +41,11 @@ function addToCart(id){
         var savedCart = localStorage.getItem("cart_value")
         var savedItems = localStorage.getItem("items_count");
         if(savedCart == null ){
-            localStorage.setItem("cart_value", 0);
+            localStorage.setItem("cart_value", 750);
         }
         if(savedItems == null ){
             savedItems = 0;
-            localStorage.setItem("items_count", 0);
+            localStorage.setItem("items_count", 1);
         }
         else{
             localStorage.setItem("cart_value", (parseInt(savedCart) + 750));
@@ -57,11 +57,11 @@ function addToCart(id){
         var savedCart = localStorage.getItem("cart_value")
         var savedItems = localStorage.getItem("items_count");
         if(savedCart == null ){
-            localStorage.setItem("cart_value", 0);
+            localStorage.setItem("cart_value", 250);
         }
         if(savedItems == null ){
             savedItems = 0;
-            localStorage.setItem("items_count", 0);
+            localStorage.setItem("items_count", 1);
         }
         else{
             localStorage.setItem("cart_value", (parseInt(savedCart) + 250));
@@ -73,11 +73,11 @@ function addToCart(id){
         var savedCart = localStorage.getItem("cart_value")
         var savedItems = localStorage.getItem("items_count");
         if(savedCart == null ){
-            localStorage.setItem("cart_value", 0);
+            localStorage.setItem("cart_value", 20);
         }
         if(savedItems == null ){
             savedItems = 0;
-            localStorage.setItem("items_count", 0);
+            localStorage.setItem("items_count", 1);
         }
         else{
             localStorage.setItem("cart_value", (parseInt(savedCart) + 20));
@@ -89,11 +89,11 @@ function addToCart(id){
         var savedCart = localStorage.getItem("cart_value")
         var savedItems = localStorage.getItem("items_count");
         if(savedCart == null ){
-            localStorage.setItem("cart_value", 0);
+            localStorage.setItem("cart_value", 150);
         }
         if(savedItems == null ){
             savedItems = 0;
-            localStorage.setItem("items_count", 0);
+            localStorage.setItem("items_count", 1);
         }
         else{
             localStorage.setItem("cart_value", (parseInt(savedCart) + 150));
@@ -105,11 +105,11 @@ function addToCart(id){
         var savedCart = localStorage.getItem("cart_value")
         var savedItems = localStorage.getItem("items_count");
         if(savedCart == null ){
-            localStorage.setItem("cart_value", 0);
+            localStorage.setItem("cart_value", 90);
         }
         if(savedItems == null ){
             savedItems = 0;
-            localStorage.setItem("items_count", 0);
+            localStorage.setItem("items_count", 1);
         }
         else{
             localStorage.setItem("cart_value", (parseInt(savedCart) + 90));
@@ -121,11 +121,11 @@ function addToCart(id){
         var savedCart = localStorage.getItem("cart_value")
         var savedItems = localStorage.getItem("items_count");
         if(savedCart == null ){
-            localStorage.setItem("cart_value", 0);
+            localStorage.setItem("cart_value", 25);
         }
         if(savedItems == null ){
             savedItems = 0;
-            localStorage.setItem("items_count", 0);
+            localStorage.setItem("items_count", 1);
         }
         else{
             localStorage.setItem("cart_value", (parseInt(savedCart) + 25));
@@ -137,11 +137,11 @@ function addToCart(id){
         var savedCart = localStorage.getItem("cart_value")
         var savedItems = localStorage.getItem("items_count");
         if(savedCart == null ){
-            localStorage.setItem("cart_value", 0);
+            localStorage.setItem("cart_value", 20);
         }
         if(savedItems == null ){
             savedItems = 0;
-            localStorage.setItem("items_count", 0);
+            localStorage.setItem("items_count", 1);
         }
         else{
             localStorage.setItem("cart_value", (parseInt(savedCart) + 20));

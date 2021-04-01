@@ -116,8 +116,12 @@ body{
     white-space: nowrap;
 }
 
-#option_1, #option_3, #option_6, #option_9{
+#option_1, #option_3, #option_9{
     border-radius: 5px 5px 0px 0px;
+}
+
+#option_6{
+    border-radius: 5px;
 }
 
 #option_2, #option_5, #option_8, #option_12{

@@ -4,50 +4,50 @@ window.onload = function addToCart(){}
 
 function addToCart(id){
     var getId = document.getElementById(id).getAttribute("id");
-    if(getId == "bola_basquete1" || getId == "bola_futebol1" || getId == "bola_volei1"){
+    if(getId == "bermuda_inf1" || getId =="bermuda_inf2"){
         var savedCart = localStorage.getItem("cart_value")
         var savedItems = localStorage.getItem("items_count");
         if(savedCart == null ){
-            localStorage.setItem("cart_value", 90);
+            localStorage.setItem("cart_value", 20);
         }
         if(savedItems == null ){
             savedItems = 0;
             localStorage.setItem("items_count", 1);
         }
         else{
-            localStorage.setItem("cart_value", (parseInt(savedCart) + 90));
+            localStorage.setItem("cart_value", (parseInt(savedCart) + 20));
             localStorage.setItem("items_count", (parseInt(savedItems) + 1));
         }
         
     }
-    if( getId == "bola_tenis1"){
+    if( getId == "kid_shirt1" || getId == "kid_shirt2"){
         var savedCart = localStorage.getItem("cart_value")
         var savedItems = localStorage.getItem("items_count");
         if(savedCart == null ){
-            localStorage.setItem("cart_value", 10);
+            localStorage.setItem("cart_value", 25);
         }
         if(savedItems == null ){
             savedItems = 0;
             localStorage.setItem("items_count", 1);
         }
         else{
-            localStorage.setItem("cart_value", (parseInt(savedCart) + 10));
+            localStorage.setItem("cart_value", (parseInt(savedCart) + 25));
             localStorage.setItem("items_count", (parseInt(savedItems) + 1));
         }
         
     }
-    if( getId == "bola_futebolamericano1"){
+    if( getId == "chuteira_inf1"){
         var savedCart = localStorage.getItem("cart_value")
         var savedItems = localStorage.getItem("items_count");
         if(savedCart == null ){
-            localStorage.setItem("cart_value", 110);
+            localStorage.setItem("cart_value", 150);
         }
         if(savedItems == null ){
             savedItems = 0;
             localStorage.setItem("items_count", 1);
         }
         else{
-            localStorage.setItem("cart_value", (parseInt(savedCart) + 110));
+            localStorage.setItem("cart_value", (parseInt(savedCart) + 150));
             localStorage.setItem("items_count", (parseInt(savedItems) + 1));
         }
         
