@@ -1,0 +1,68 @@
+#contact_div{
+    display: block;
+    margin: 10px 20px 10px 20px;
+    justify-content: center;
+}
+
+.titles{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(0, 27, 150);
+    padding: 5px 10px 5px 10px;
+    margin: 10px;
+    border-radius: 50px;
+    box-shadow: 1px 1px 3px 1px black;
+    height: 100%;
+    width: 13%;
+    display: flex;
+    position: relative; 
+    text-align: center;  
+    justify-content: center;
+}
+
+.texts{
+    margin-left: 20px;
+    color: white;
+    letter-spacing: 0.4px;
+    word-spacing: 1px;
+}
+
+
+
+input{
+    width: 20%;
+    padding: 5px 5px;
+    margin: 8px;
+    border: 3px solid rgb(3, 3, 161);
+    word-wrap: break-word;
+}
+
+#input_text{
+    padding-bottom: 100px;
+    resize: none;
+}
+
+button{
+    margin:25px 20px 25px 20px;
+    background-color: blue;
+    color: white;
+    font-family: bebas;
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 10px 15px 10px 15px;
+    width: 28%;
+    justify-content: center;
+    box-sizing: border-box;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0px 0px 3px 1px black;
+}
+
+#box_mail_title{
+    margin-left: 47px;
+}
+#box_name_title{
+    margin-left: 52px;
+}
